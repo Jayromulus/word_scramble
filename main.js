@@ -10,8 +10,8 @@ class myArr {
   scramble() {
     for(;this.arr.length > 0;){
       const rand = Math.floor(Math.random() * this.arr.length);
-      const temp = this.arr.splice(rand, 1);
-      this.new.push(temp)
+      const temp = this.arr.splice(rand, 1); 
+      this.new.push(temp) 
     }
     return this.new.join('');
   }
